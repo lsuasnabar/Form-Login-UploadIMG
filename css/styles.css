@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: emoji;
+}
+h3{
+    text-align: center;
+    font-size: 25px;
+}
+.formulario{ 
+    max-width: 50%;
+    margin: auto;
+    padding: 20px;
+    background: #24303c;
+    color: #ffffff;
+    margin-top: 5%;
+    border-radius: 4px;
+}
+
+.form-login{
+    max-width: 30%;
+}
+form{
+    width: 100%;
+    margin-top: 10px;
+}
+.controls{
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 15px 0px 10px 0px;
+}
+.btn-submit{
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 6px;
+    background: #485B6E;
+    color: #ffffff;
+}
+.alerta{
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    background: green;
+}
+@media only screen and (max-width: 550px) {
+    .formulario{ 
+        max-width: 100%;}
+}
